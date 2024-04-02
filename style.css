@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Navbar{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    padding: 10px;
+}
+.Navbar img{
+    height: 30px;
+}
+.Navbar-s1{
+    display: flex;
+}
+.Navbar-s2{
+    display: flex;
+    gap: 25px;
+}
+.Navbar-s3{
+    display: flex;
+    gap: 20px;
+}
+.Navbar-s3 button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Where{
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+}
+.Categories{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.Categories:hover{
+  border-bottom: black solid 1px;
+  color: gray;
+  padding-bottom: 5px;
+}
+.search-div {
+    width: 60%;
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.searchbar {
+    background-color: #84e9bd;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#search-box {
+    width: 100%;
+    border: none;
+}
+
+#search-box:focus {
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+
+.search-center {
+    display: flex;
+    justify-content: center;
+}
+.text-container__heading {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text-container {
+    margin-left: 150px;
+
+}
+
+.container__cards {
+    display: flex;
+    margin: 70px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card img:hover {
+    opacity: 0.8;
+}
+
+.card {
+    position: relative;
+}
+
+.card p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-others {
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.ads {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    bottom: 50px;
+    justify-content: center;
+}
+
+.ad {
+    display: flex;
+    width: 80%;
+    height: 180px;
+    align-items: center;
+    gap: 20px;
+    background-color: #FAF1ED;
+}
+
+.rotate img {
+    rotate: 355deg;
+    margin: 10px 0 10px 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: white;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    transition: 600ms;
+    background-color: #000000;
+}
+
+.dot i{
+    padding: 3px;
+}
+
+.three-card {
+    display: flex;
+    position: relative;
+    gap: 30px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF1ED;
+}
+
+.three-card img {
+    border-radius: 10px;
+
+}
+
+.three-card__img {
+    justify-content: center;
+    align-items: center;
+}
+
+.video video {
+    width: 100%;
+
+}
+
+.video-subheading {
+    margin: 30px 130px 30px 130px;
+}
+
+.s1 {
+    display: flex;
+    gap: 50px;
+    padding: 0 70px 0 70px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.contact {
+    position: relative;
+    background-color: #FAF1ED;
+    margin-top: 70px;
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.s2 {
+    display: flex;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.p1 p {
+    padding: 5px;
+}
+
+.p2 p {
+    padding: 5px;
+}
+
+.p3 p {
+    padding: 5px;
+}
